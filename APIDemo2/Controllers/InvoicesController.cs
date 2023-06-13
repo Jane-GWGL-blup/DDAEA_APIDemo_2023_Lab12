@@ -113,8 +113,6 @@ namespace APIDemo2.Controllers
                 return NotFound();
             }
 
-
-
             _context.Invoices.Remove(invoice);
             await _context.SaveChangesAsync();
 
