@@ -11,6 +11,7 @@ namespace APIDemo2.Models
         public int CustomerID { get; set; }
         public string CustomerFirstName { get; set; }
         public string CustomerLastName { get; set; }
+        public List<Invoice>? Invoices { get; set; }
     }
 
 }
